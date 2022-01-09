@@ -1,7 +1,7 @@
 # excthiscode
 
 
-excthiscod is a Python website & discord bot word pluralization.
+excthiscod is a Python website & discord bot 
 
 ## Installation
 
