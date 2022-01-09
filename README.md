@@ -1,0 +1,1 @@
+this is a website and a discord bot, this work all on one file, if you are going to use this for discord only put your token an use like a normal bot if you use like a website only go to your ip and is all 0k :)
