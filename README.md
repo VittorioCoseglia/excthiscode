@@ -1,1 +1,24 @@
-this is a website and a discord bot, this work all on one file, if you are going to use this for discord only put your token an use like a normal bot if you use like a website only go to your ip and is all 0k :)
+# excthiscode
+
+
+excthiscod is a Python website & discord bot word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+First you will put your discord token on app.py and execute app.py, If you will use this for a website only enter to the ip on cmd (This is your ip) and anything more and if you use for discord use like a normal bot for use on discord only write on a chat !runcode print("hello world") for use the website write the code area and click on submit and the output will spawn on output
+
+## Images
+### Discord
+![Discord](https://github.com/VittorioCoseglia/excthiscode/blob/main/img/1.png?raw=true)
+##
+### Web
+![Discord](https://github.com/VittorioCoseglia/excthiscode/blob/main/img/2.png?raw=true)
+## License
