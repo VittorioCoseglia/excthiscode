@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25
+rem
+ + 2
+px
+);
+    padding: 0.375
+rem
+ 0.75
+rem
+;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #272822;
+    background-clip: padding-box;
+    border: 1
+px
+ solid #272822;
+    border-radius: 0.25
+rem
+;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+</style>
+
+    <title>PyCompiler</title>
+  </head>
+  <body style="font-family:Verdana;"><br>
+    <h1 style="text-align:center;">PyCompiler</h1><br>
+
+    <form action="/runcode" method="post">
+      
+  <div class="form-group" style="margin-left:50px;margin-right:50px;">
+    <label for="codearea">Code Area</label>
+    <textarea type="text" class="form-control" id="codearea" name="codearea" rows="10" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}">{{ code }}</textarea>
+  </div>
+
+  <div class="form-group" style="margin-left:50px;margin-right:50px;">
+    <label for="output">Output</label>
+    <textarea type="text" class="form-control" id="output" name="output" rows="4" disabled> {{ output }} </textarea>
+  </div>
+
+  <button type="submit" class="button1" style="margin-left:50px;">Submit</button>
+</form>
+
+
+  </body>
+</html>

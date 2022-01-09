@@ -1,0 +1,5 @@
+discord
+flask
+functools
+threading
+asyncio
